@@ -1,5 +1,5 @@
 FROM ubuntu
 MAINTAINER akhila@gmail.com
-ADD target/account-service.jar account-service.jar
-ENTRYPOINT ["java", "-jar", "/account-service.jar"]
+ADD target/markdown-cv.jar markdown-cv.jar
+ENTRYPOINT ["java", "-jar", "/markdown-cv.jar"]
 EXPOSE 2222
